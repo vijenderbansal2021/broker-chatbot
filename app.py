@@ -1,4 +1,10 @@
 import streamlit as st
+
+if "question_count" not in st.session_state:
+    st.session_state.question_count = 0
+else
+st.session_state.question_count += 1
+
 from openai import OpenAI
 
 client = OpenAI()
@@ -29,3 +35,6 @@ if user_input:
 
     st.write("### Answer:")
     st.write(answer)
+
+st.sidebar.write("📊 Usage Tracking")
+st.sidebar.write(f"Questions asked: {st.session_state.question_count}")
