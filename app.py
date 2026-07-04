@@ -25,7 +25,7 @@ if user_input:
     st.session_state.messages.append({"role": "user", "content": user_input})
 
     response = client.chat.completions.create(
-        model="gpt-4-mini",
+        model="gpt-4.1-mini",
         messages=st.session_state.messages
     )
 
