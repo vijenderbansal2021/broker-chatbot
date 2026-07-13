@@ -7,7 +7,7 @@ https://broker-chatbot-dvfb4caudbu7skdk9j2ubg.streamlit.app/
 
 ## 🚀 Live App
 
-👉 https://your-app-name.streamlit.app
+👉 [https://your-app-name.streamlit.app](https://broker-chatbot-dvfb4caudbu7skdk9j2ubg.streamlit.app/)
 
 ---
 
